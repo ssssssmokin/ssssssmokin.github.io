@@ -16,43 +16,28 @@
 			<nav id="header_menu">
 				<ul id="header_menu_ul">
 					<li class="header_menu_li">
-						<a href="#" class="header_menu_a">ГОЛОВНА</a>
+						<a href="#block2" class="header_menu_a">ПРО КУРСИ</a>
 					</li>
 					<li class="header_menu_li">
-						<a href="#" class="header_menu_a">КУРСИ</a>
-					</li>
-					<li class="header_menu_li">
-						<a href="#" class="header_menu_a">КОНТАКТИ ТА АДРЕСА</a>
-					</li>
-					<li class="header_menu_li">
-						<select id="select_lang" onchange="window.location.href=this.options[this.selectedIndex].value">
-							<option value="">
-								UKR <img src="images/header/ukr.png">
-							</option>
-							<option value="">
-								RUS
-							</option>
-							<option value="">
-								ENG
-							</option>
-						</select>
+						<a href="#block8" class="header_menu_a">КОНТАКТИ ТА АДРЕСА</a>
 					</li>
 				</ul>
 			</nav>
+
 			<div id="header_icons">
 				<ul id="header_icons_ul">
 					<li class="header_icons_li">
-						<a href="#" class="header_icons_a">
+						<a href="viber://add?number=+380979513135" class="header_icons_a">
 							<img src="images/header/1.png">
 						</a>
 					</li>
 					<li class="header_icons_li">
-						<a href="#" class="header_icons_a">
+						<a href="tg://resolve?domain=" class="header_icons_a">
 							<img src="images/header/2.png">
 						</a>
 					</li>
 					<li class="header_icons_li">
-						<a href="#" class="header_icons_a">
+						<a href="whatsapp://send?phone=+380979513135" class="header_icons_a">
 							<img src="images/header/3.png">
 						</a>
 					</li>
@@ -62,6 +47,19 @@
 		<main class="center clearfix" id="main">
 			<section id="block1" class="center">
 				<div class="container" id="block1_container">
+					<nav id="lang_nav">
+						<select id="select_lang" onchange="window.location.href=this.options[this.selectedIndex].value">
+							<option value="index_eng.html">
+								EN
+							</option>
+							<option value="index.html">
+								UA
+							</option>
+							<option value="index_rus.html">
+								RU
+							</option>
+						</select>
+					</nav>
 					<div id="headline">
 						<span>INTERCLASS</span> - ЦЕНТР РОЗВИТКУ МОВНОЇ КОМПЕТЕНЦІЇ
 					</div>
@@ -226,7 +224,7 @@
 						</p>
 					</div>
 					<div id="block8_form">
-						<form action="php/send_ua.php" method="post" id="form8" class="form8">
+						<form action="php/send_en.php" method="post" id="form8" class="form8">
 							<div id="order">
 								НАПИШІТЬ НАМ
 							</div>
@@ -308,17 +306,17 @@
 				</div>
 				<ul id="footer_icons">		
 					<li class="footer_icon">
-						<a href="#" class="footer_link">
+						<a href="viber://add?number=+380979513135" class="footer_link">
 							<img src="images/footer/4.png">
 						</a>
 					</li>
 					<li class="footer_icon">
-						<a href="#" class="footer_link">
+						<a href="whatsapp://send?phone=+380979513135" class="footer_link">
 							<img src="images/footer/5.png">
 						</a>
 					</li>
 					<li class="footer_icon">
-						<a href="#" class="footer_link">
+						<a href="tg://resolve?domain=" class="footer_link">
 							<img src="images/footer/6.png">
 						</a>
 					</li>
@@ -327,7 +325,4 @@
 		</footer>
 	</div>
 </body>
-</html>
-
-					
-					
+</html>		

@@ -90,7 +90,6 @@ img{
     display: table;
 }
 /* --------------------- OK LETS GO -----------------------*/
-
 #site {
 	background-color:#fff;
 	max-width:100%;
@@ -111,6 +110,7 @@ img{
 #header {
 	background-color:#fff;
 	border-bottom:5px solid #739AE8;
+	position:relative;
 }
 /* ---------------------- header logo ------------------------*/	
 	#header_logo {
@@ -186,6 +186,17 @@ img{
 #main {
 	background-color:#535557;
 }
+a:hover {cursor:pointer;}
+#lang_nav {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#select_lang {
+	border-radius:5px;
+	color:#739AE8;
+}
+
 /* --------------------------- block1 ------------------------------*/
 	#block1 {
 		background:url(../images/block1/bg1.jpg) no-repeat center center;
@@ -208,7 +219,7 @@ img{
 			font-size:15px;
 			color:#828282;
 			display:table;
-			margin:0 20px 50px 20px;
+			margin:0 auto 50px auto;
 			letter-spacing:3px;
 			text-align:center;
 		}
@@ -730,7 +741,9 @@ footer {
 	#map {width:320px;}
 }
 @media screen and (max-width:380px) {
+	.block2_div2 {height:150px;}
 	#map {width:300px;}
 	#map_div {margin-right:30px;}
 	.block1_block {margin-bottom:10px;}
 }
+/* ----------------------------- final -------------------------------*/
