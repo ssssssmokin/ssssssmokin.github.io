@@ -210,18 +210,19 @@ a:hover {cursor:pointer;}
 			font-size:50px;
 			color:#fff;
 			display:table;
-			margin:0 auto 40px auto;
+			margin:0 auto 30px auto;
 			text-align:center;
 			text-shadow: 1px 1px 3px #535557;
 		}
 			#headline span {color:#DC143C;font-weight:bold;}
 		#features {
-			font-size:15px;
-			color:#828282;
+			font-size:20px;
+			color:#DC143C;
 			display:table;
-			margin:0 auto 50px auto;
+			margin:0 auto 20px auto;
 			letter-spacing:3px;
 			text-align:center;
+			font-weight:bold;
 		}
 		#block1_text {
 			display:table;
